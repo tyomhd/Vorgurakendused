@@ -8,6 +8,10 @@
 
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt1/kt1.html
 
+2. KT2
+
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt2/kt2-iframe.html
+
  
  Artyom Likhachev
  
