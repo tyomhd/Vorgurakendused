@@ -1,0 +1,76 @@
+body{
+    background-color: #acabae;
+    max-width:700px;
+}
+div {
+
+    word-wrap:break-word;
+    text-align:justify;
+    border: 3px solid;
+    border-radius: 10px;
+    font-size: 110%;
+    font-family: monospace;
+    font-weight: inherit;
+    background-color: #f8fddb;
+    padding:15px;
+}
+div:hover{
+    cursor: url('http://enos.itcollege.ee/~alikhach/Vorgurakendused1/images/apple-2-icon.png'), auto;
+    border: 10px dashed;
+    border-color: orangered;
+    border-left-color: red;
+    border-right-color: red;
+    border-top-style: dotted;
+    border-radius: 10px;
+    padding: 8px;
+
+}
+#mainimage {
+    width: 680px;
+    height: 480px;
+    border: 10px solid red;
+    border-radius: 10px;
+    border-bottom-width: 15px;
+    border-right-color: darkgreen;
+    border-left-color: darkgreen;
+    border-bottom-style: double;
+    cursor: no-drop;
+}
+
+img {
+    border: 3px solid red;
+    border-radius: 5px;
+    border-bottom-width: 5px;
+    border-right-color: darkgreen;
+    border-left-color: darkgreen;
+    border-bottom-style: double;
+}
+h1{
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 1px 1px red;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 300%;
+    font-stretch: ultra-expanded;
+}
+h1:hover{
+    text-shadow: 5px 5px #ff00a6;
+}
+h2 {
+    text-align: center;
+    color: darkred;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+    border-color: transparent;
+
+}
+h2:hover {
+    cursor: url('http://enos.itcollege.ee/~alikhach/Vorgurakendused1/images/apple-icon.png'), auto;
+    background-color: greenyellow;
+}
+li {
+    font-style: italic;
+    font-weight: bold;
+}
