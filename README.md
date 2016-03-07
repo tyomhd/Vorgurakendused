@@ -1,5 +1,5 @@
 <h2>Network Applications I: Client-Server Systems</h2>
-<h3>Võrgurakendused I: klient-server süsteemide ehitamine</h3>
+<h5><em>Võrgurakendused I: klient-server süsteemide ehitamine</em></h5>
  
  <b>i244</b>
 
