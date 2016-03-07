@@ -1,6 +1,5 @@
-﻿ Võrgurakendused I: klient-server süsteemide ehitamine
- 
- Network Applications I: Client-Server Systems
+<h2>Network Applications I: Client-Server Systems</h2>
+<h3>Võrgurakendused I: klient-server süsteemide ehitamine</h3>
  
  <b>i244</b>
 
