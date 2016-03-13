@@ -12,6 +12,10 @@ http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt3/kt3-selektorite-%C3%BCle
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt3/kt3-stiilid.htm      <b>(stiilid)</b><br>
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt3/kt3-kt1.html       <b>(3-4)</b> <br>
 
+<b>Kodune ülesanne - 4. nädal</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt4/kt4-1.html     <b>Duck hunt - target</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt4/kt4-2.html       <b>Abakus beads</b> <br>
+
  
 Artyom Likhachev<br>
 <b>Enos link:</b> http://enos.itcollege.ee/~alikhach/
