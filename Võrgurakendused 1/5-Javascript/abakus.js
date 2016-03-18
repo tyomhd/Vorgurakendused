@@ -1,14 +1,12 @@
 window.onload =  function reverseAll(){
-
     var beads = document.getElementsByClassName("bead");
-    for (i = 0; i < beads.size; i++) {
-        var bStyle = window.getComputedStyle(beads[i], null);
 
-        if (bStyle.cssFloat=="left"){
+    for (var i = 0; i < beads.length; i++) {
+        var s = getComputedStyle(beads[i], null);
+        if (s.cssFloat=="left"){
             beads[i].style.cssFloat="right";
         }else {
             beads[i].style.cssFloat="left";
         }
-
     }
-};
+}
