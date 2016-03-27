@@ -22,10 +22,10 @@
 			$("#prev").click(function(){
 				if($(".active").is(":first-child")){
 					$("li").last().addClass('active');
-					$(".active:last").removeClass('active');
-				} else {
-					$(".active").next().addClass('active');
 					$(".active:first").removeClass('active');
+				} else {
+					$(".active").prev().addClass('active');
+					$(".active:last").removeClass('active');
 				}
 			});
 		});
