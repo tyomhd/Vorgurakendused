@@ -10,7 +10,7 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			var position = 1;
+			var activeElement;
 			$("li").first().addClass('active');
 			$("#next").click(function(){
 				if($(".active").is(":last-child")){
@@ -21,8 +21,7 @@
 					$(".active").next().addClass('active');
 					$(".active:first").removeClass('active');
 				}
-				position++;
-				$("p").textContent="Position: " + position;
+				var activeElement=$("ul li.active");
 			});
 			$("#prev").click(function(){
 				if($(".active").is(":first-child")){
@@ -32,8 +31,7 @@
 					$(".active").prev().addClass('active');
 					$(".active:last").removeClass('active');
 				}
-				position--;
-				$("p").innerText="Position: " + '3';
+				var activeElement=$("ul li.active");
 			});
 		});
 
