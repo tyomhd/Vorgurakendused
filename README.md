@@ -23,5 +23,11 @@ http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt5/kt4-2.html       <b>Abak
 <b>Kodune ülesanne - 6. nädal</b><br>
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt6/loop.htm       <b>Loop</b><br>
 
+<b>Kodune ülesanne - 7. nädal</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt7/myphp.php       <b>1st</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt7/suurAlgus.php   <b>2nd</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt7/myphp2.php      <b>3rd</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt7/dogs.html       <b>3rd</b><br>
+
 Artyom Likhachev<br>
 <b>Enos link:</b> http://enos.itcollege.ee/~alikhach/
