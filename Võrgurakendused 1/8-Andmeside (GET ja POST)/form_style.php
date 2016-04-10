@@ -3,30 +3,38 @@
 <head>
     <meta charset="utf-8" />
     <title>Homework №8</title>
-    <style type="text/css">
-        .result {
-            width: 400px;
-            height: 100px;
-            background-color: #fff;
-            color: #fff;
-            border-style: none;
-            border-color: #fff;
-            border-width: 0px;
-            border-radius: 0px;
-            text-align: center;
-            font-size: 32px;
-            font-family: "Verdana";
-            padding-left: 15px;
-            padding-bottom: 15px;
-            padding-right: 15px;
-            padding-top: 15px;
-            margin-left: 15px;
-            margin-top: 15px;
-        }
-    </style>
 </head>
 
 <body>
+
+<?php
+$bg_color="#fff";
+if (isset($_POST['bg_col']) && $_POST['bg_col']!="") {
+    $bg_color=htmlspecialchars($_POST['bg_col']);
+}
+
+?>
+<style type="text/css">
+    .result {
+        width: 400px;
+        height: 100px;
+        background-color: <?php echo $bg_color; ?>;
+        color: #fff;
+        border-style: none;
+        border-color: #fff;
+        border-width: 0px;
+        border-radius: 0px;
+        text-align: center;
+        font-size: 32px;
+        font-family: "Verdana";
+        padding-left: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+</style>
 
 <p class="result">
     <br>
@@ -35,11 +43,11 @@
 <form method="post" action="form_style.php">
 
     <div class="textStyle">
-        <textarea name="name" cols="30" rows="3" ></textarea><br>
+        <textarea name="txtarea" cols="30" rows="3" ></textarea><br>
 
-        <input type="color" name="txt_bg_col" value= ""> Background color<br>
+        <input type="color" name="bg_col" value= "<?php echo $bg_color; ?>"> Background color<br>
 
-        <input type="color" name="txt_col" value=""> Text color<br><br>
+        <input type="color" name="txt_col" value= ""> Text color<br><br>
 
     </div>
 
