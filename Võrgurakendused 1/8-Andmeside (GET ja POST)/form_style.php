@@ -50,7 +50,7 @@ if (isset($_POST['radius']) && $_POST['radius']!="") {
         border-radius: <?php echo $brd_radius; ?>px;
         text-align: center;
         font-size: 32px;
-        font-family: "Verdana";
+        font-family:  Helvetica, sans-serif;
         padding-left: 15px;
         padding-bottom: 15px;
         padding-right: 15px;
@@ -58,29 +58,49 @@ if (isset($_POST['radius']) && $_POST['radius']!="") {
         margin-left: 15px;
         margin-top: 15px;
     }
+    form{
+        max-width: 350px;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        border: 1px solid #ddd;
+    }
+
+    ul li {
+        padding: 8px 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    ul li:last-child {
+        border-bottom: none
+    }
+
 </style>
 
-<p class="result">
-    <?php if ($_POST['txtarea']!="Enter your text here")  echo $text_area; ?>
-    <br>
-</p>
+    <p class="result">
+    <?php if (isset($_POST['txtarea'])&& $_POST['txtarea']!="Enter your text here")  echo $text_area; ?>
+    
+    </p>
 
-<form method="post" action="form_style.php">
+    <form method="post" action="form_style.php">
 
-    <div class="textStyle">
-        <textarea name="txtarea" cols="30" rows="3" ><?php echo $text_area; ?></textarea><br>
 
-        <input type="color" name="bg_col" value= "<?php echo $bg_color; ?>"> Background color<br>
+        <ul>
+            <li><textarea name="txtarea" cols="30" rows="3" ><?php echo $text_area; ?></textarea></li>
 
-        <input type="color" name="txt_col" value= "<?php echo $txt_color; ?>"> Text color<br><br>
+            <li><input type="color" name="bg_col" value= "<?php echo $bg_color; ?>"> Background color</li>
 
-    </div>
+            <li><input type="color" name="txt_col" value= "<?php echo $txt_color; ?>"> Text color</li>
 
-    <div class="borderSettings">
-        <input type="number" name="width" value="<?php echo $brd_width; ?>" min="0" max="20" step="1"> Border width (0-20px)<br>
 
-        <select name="style">
-            <option value="select"></option>
+
+
+            <li><input type="number" name="width" value="<?php echo $brd_width; ?>" min="0" max="20" step="1"> Border width (0-20px)</li>
+
+            <li><select name="style">
+            <option value="<?php if (isset($_POST['width']) && isset($_POST['style'])){echo $brd_style;} else echo "select"; ?>"><?php if (isset($_POST['style'])){echo $brd_style;} else echo "select";
+                ?></option>
             <option value="solid">solid</option>
             <option value="dotted">dotted</option>
             <option value="dashed">dashed</option>
@@ -90,15 +110,15 @@ if (isset($_POST['radius']) && $_POST['radius']!="") {
             <option value="groove">groove</option>
             <option value="ridge">ridge</option>
 
-        </select> Border style<br>
+                </select> Border style</li>
 
-        <input type="color" name="bcolor" value="<?php echo $brd_color; ?>"> Border color<br>
+            <li><input type="color" name="bcolor" value="<?php echo $brd_color; ?>"> Border color</li>
 
-        <input type="number" name="radius" value="<?php echo $brd_radius; ?>" min="0" max="100" step="1"> Border radius (0-100px)<br><br>
+            <li><input type="number" name="radius" value="<?php echo $brd_radius; ?>" min="0" max="100" step="1"> Border radius (0-100px)</li>
+        </ul>
 
-    </div>
-    <button type="submit">Show it</button>
-</form>
+        <button type="submit">Show it</button>
+    </form>
 
 </body>
 </html>
