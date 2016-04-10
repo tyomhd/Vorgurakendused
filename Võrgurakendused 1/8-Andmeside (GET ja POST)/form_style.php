@@ -35,9 +35,9 @@
 <form method="post" action="form_style.php">
 
     <div class="textStyle">
-        <textarea name="user" cols="30" rows="3" ></textarea><br>
+        <textarea name="name" cols="30" rows="3" ></textarea><br>
 
-        <input type="color" name="bgr_col" value= ""> Background color<br>
+        <input type="color" name="txt_bg_col" value= ""> Background color<br>
 
         <input type="color" name="txt_col" value=""> Text color<br><br>
 
@@ -48,14 +48,15 @@
 
         <select name="border">
             <option value="select">select</option>
+            <option value="solid">solid</option>
             <option value="dotted">dotted</option>
             <option value="dashed">dashed</option>
-            <option value="solid">solid</option>
+            <option value="outset">outset</option>
             <option value="double">double</option>
+            <option value="inset">inset</option>
             <option value="groove">groove</option>
             <option value="ridge">ridge</option>
-            <option value="inset">inset</option>
-            <option value="outset">outset</option>
+
         </select> Border style<br>
 
         <input type="color" name="b_color" value=""> Border color<br>

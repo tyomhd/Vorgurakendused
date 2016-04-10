@@ -29,5 +29,9 @@ http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt7/suurAlgus.php   <b>2nd</
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt7/myphp2.php      <b>3rd</b><br>
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt7/dogs.html       <b>3rd</b><br>
 
+<b>Kodune ülesanne - 8. nädal</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt8/form_style.php      <b>Form style post</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt8/nr2.php             <b>nr2</b><br>
+
 Artyom Likhachev<br>
 <b>Enos link:</b> http://enos.itcollege.ee/~alikhach/
