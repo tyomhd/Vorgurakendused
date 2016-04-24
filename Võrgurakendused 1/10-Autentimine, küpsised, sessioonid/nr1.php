@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Homework №8</title>
+    <title>Homework №10.1</title>
 </head>
 
 <body>
@@ -80,10 +80,9 @@ if (isset($_POST['radius']) && $_POST['radius']!="") {
 
     <p class="result">
     <?php if (isset($_POST['txtarea'])&& $_POST['txtarea']!="Enter your text here")  echo $text_area; ?>
-    
     </p>
 
-    <form method="post" action="form_style.php">
+    <form method="post" action="nr1.php">
 
 
         <ul>
