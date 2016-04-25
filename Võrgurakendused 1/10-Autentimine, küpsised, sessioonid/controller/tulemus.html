@@ -8,10 +8,13 @@
 		foreach($images as $img){
 			$imgList[]=$img;
 		}
+
 		if(!empty($_POST)){
 			error_reporting(0);
 			$nr = intval($_POST['pilt'])-1;
 			if(in_array($images[intval($_POST['pilt'])-1], $imgList)) {
+			$_SESSION['LAST_ACTIVITY'] = time();
+			$_SESSION['VOTED_FOR'] = $_POST['pilt'];
 				echo "<p>Thank you! Your vote counts! The picture number ".$_POST['pilt']." is my favorite too. </p>";
 	} else {
 	echo "<p>Your vote is not in the list, sorry.</p>";
@@ -19,7 +22,11 @@
 	} else {
 	echo "<p>Go back and vote, this is your obligation.</p>";
 	}
+
 	?>
+	<form action="destroysession.php">
+		<input type="submit" value="Destroy Session">
+	</form>
 	</p>
 </div>
 

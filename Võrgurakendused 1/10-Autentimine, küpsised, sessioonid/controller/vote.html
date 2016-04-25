@@ -7,6 +7,7 @@
 		$nr=1;
 		foreach ($images as $i) {
 			echo("<p><label for='p".$nr."'><img src='".$i."' alt='nimetu ".$nr."' height='100' /></label><input type='radio' value='".$nr."' id='p".$nr."' name='pilt'/></p>");
+			$nr++;
 		}
 		?>
 		<br/>

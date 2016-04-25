@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7b916b6-14cb-4547-9ace-db53ebe1ba34" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/nr2.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/form_style.php" afterPath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/nr1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/destroysession.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/controller.php" afterPath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/head.html" afterPath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/tulemus.html" afterPath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/tulemus.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/vote.html" afterPath="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/vote.html" />
     </list>
     <ignored path="Vorgurakendused.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,16 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vote.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/9-MVC/controller/vote.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.807693">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
@@ -46,11 +39,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nr1.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/nr1.php">
+      <file leaf-file-name="controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7084746">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6915254">
+              <caret line="39" column="113" selection-start-line="39" selection-start-column="113" selection-end-line="39" selection-end-column="113" />
+              <folding>
+                <marker date="1461550166448" expanded="true" signature="872:920" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tulemus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/tulemus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2075472">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.115385">
+              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.423077">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vote.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/vote.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8490567">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="destroysession.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/destroysession.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.2692308">
+              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -110,6 +155,12 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/form_style.php" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/nr1.php" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/endsession.php" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/destroysession.php" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/head.html" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/vote.html" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/tulemus.html" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/controller.php" />
       </list>
     </option>
   </component>
@@ -288,9 +339,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12811127" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12664714" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -325,49 +376,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/8-Andmeside (GET ja POST)/form_style.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/3-CSS sissejuhatus/kt3-stiilid.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/7-PHP sissejuhatus/myphp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/7-PHP sissejuhatus/suurAlgus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/7-PHP sissejuhatus/myphp2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/7-PHP sissejuhatus/dogs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -670,6 +678,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/nr1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23050848">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/destroysession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.423077">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/vote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8490567">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-25.814816">
@@ -678,11 +718,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/nr1.php">
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/tulemus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7084746">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.2075472">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.115385">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6915254">
+          <caret line="39" column="113" selection-start-line="39" selection-start-column="113" selection-end-line="39" selection-end-column="113" />
+          <folding>
+            <marker date="1461550166448" expanded="true" signature="872:920" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
