@@ -1,10 +1,6 @@
 
 <?php
-ini_set("session.cookie_lifetime",30*60);
 session_start();
-
-$_SESSION["favcolor"] = "yellow";
-print_r($_SESSION);
 
 require_once('head.html');
 
@@ -37,7 +33,7 @@ switch($page) {
             session_destroy();
             require_once('vote.html');
         } else {
-            echo "<p style=\"color:red; text-align: center; font-weight: bold\">Sorry! you have voted for number ".$_SESSION['VOTED_FOR']." already</p>";
+            echo "<p style=\"color:red; text-align: center; font-weight: bold\">Sorry! You have voted for number ".$_SESSION['VOTED_FOR']." already</p>";
             $_POST['pilt'] = $_SESSION['VOTED_FOR'];
             require_once('tulemus.html');
         }
