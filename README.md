@@ -37,5 +37,9 @@ http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt8/nr2.php             <b>n
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt9/multipage/pealeht.php      <b>Multipage</b><br>
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt9/controller/controller.php  <b>Controller</b><br>
 
+<b>Kodune ülesanne - 10. nädal</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt10/nr1.php     <b>nr1</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt10/controller/controller.php   <b>nr2</b><br>
+
 Artyom Likhachev<br>
 <b>Enos link:</b> http://enos.itcollege.ee/~alikhach/
