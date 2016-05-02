@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7b916b6-14cb-4547-9ace-db53ebe1ba34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php" afterPath="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php" />
     </list>
     <ignored path="Vorgurakendused.iws" />
@@ -25,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.185185">
-              <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.79122806">
+              <caret line="44" column="82" selection-start-line="44" selection-start-column="82" selection-end-line="44" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -133,10 +134,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="refresh2.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="refresh2.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2977233">
+            <state vertical-scroll-proportion="-6.5384617">
               <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
               <folding>
                 <marker date="1462163721891" expanded="true" signature="307:349" placeholder="UPDATE alikh... " />
@@ -204,12 +205,12 @@
         <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/head.html" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/vote.html" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/tulemus.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/controller.php" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/style.css" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh.php" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh2.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -423,7 +424,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="2" width="1366" height="735" extended-state="0" />
+    <frame x="0" y="2" width="1366" height="735" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18148148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -753,14 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.185185">
-          <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/tulemus.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -845,11 +838,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2977233">
+        <state vertical-scroll-proportion="-6.5384617">
           <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
           <folding>
             <marker date="1462163721891" expanded="true" signature="307:349" placeholder="UPDATE alikh... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79122806">
+          <caret line="44" column="82" selection-start-line="44" selection-start-column="82" selection-end-line="44" selection-end-column="82" />
+          <folding />
         </state>
       </provider>
     </entry>

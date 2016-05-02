@@ -41,5 +41,8 @@ http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt9/controller/controller.ph
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt10/nr1.php     <b>nr1</b><br>
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt10/controller/controller.php   <b>nr2</b><br>
 
+<b>Kodune ülesanne - 11. nädal</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt11/zoo.php    <b>zoo</b><br>
+
 Artyom Likhachev<br>
 <b>Enos link:</b> http://enos.itcollege.ee/~alikhach/
