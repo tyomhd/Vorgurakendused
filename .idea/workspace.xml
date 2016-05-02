@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b7b916b6-14cb-4547-9ace-db53ebe1ba34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php" afterPath="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php" />
     </list>
     <ignored path="Vorgurakendused.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-14.185185">
               <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
               <folding />
             </state>
@@ -46,15 +47,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zoo.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="zoo.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13660245">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state vertical-scroll-proportion="-18.692308">
+              <caret line="88" column="61" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
               <folding>
-                <marker date="1462156179333" expanded="true" signature="463:494" placeholder="SELECT * FRO... alikhach_loomaaed" />
-                <marker date="1462156179333" expanded="true" signature="807:1042" placeholder="..." />
+                <marker date="1462163463282" expanded="true" signature="463:494" placeholder="SELECT * FRO... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="807:1042" placeholder="..." />
+                <marker date="1462163463282" expanded="true" signature="1242:1288" placeholder="SELECT * FRO... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="1429:1475" placeholder="SELECT * FRO... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="1616:1662" placeholder="SELECT * FRO... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="1852:1901" placeholder="SELECT MAX(v... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="1921:1970" placeholder="SELECT MIN(v... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="2057:2884" placeholder="..." />
+                <marker date="1462163463282" expanded="true" signature="2154:2218" placeholder="SELECT COUNT... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="2303:2367" placeholder="SELECT COUNT... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="2452:2516" placeholder="SELECT COUNT... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="2601:2665" placeholder="SELECT COUNT... alikhach_loomaaed" />
+                <marker date="1462163463282" expanded="true" signature="2750:2815" placeholder="SELECT COUNT... alikhach_loomaaed" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refresh.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <marker date="1462163634643" expanded="true" signature="307:349" placeholder="UPDATE alikh... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_style.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/8-Andmeside (GET ja POST)/form_style.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="48" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,32 +133,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="galerii.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/galerii.html">
+      <file leaf-file-name="refresh2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vote.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/vote.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
+            <state vertical-scroll-proportion="0.2977233">
+              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+              <folding>
+                <marker date="1462163721891" expanded="true" signature="307:349" placeholder="UPDATE alikh... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -192,6 +208,8 @@
         <option value="$PROJECT_DIR$/Võrgurakendused 1/10-Autentimine, küpsised, sessioonid/controller/controller.php" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/style.css" />
         <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh.php" />
+        <option value="$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh2.php" />
       </list>
     </option>
   </component>
@@ -324,6 +342,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vorgurakendused" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Vorgurakendused" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Võrgurakendused 1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="8-Andmeside (GET ja POST)" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -387,7 +423,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="2" width="1366" height="735" extended-state="1" />
+    <frame x="0" y="2" width="1366" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18148148" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -425,20 +461,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/3-CSS sissejuhatus/kt3-kt1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/3-CSS sissejuhatus/kt3-stiilid.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/5-Javascript/kt4-2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56110156">
@@ -506,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26385808">
           <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/8-Andmeside (GET ja POST)/form_style.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96230596">
-          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -740,7 +755,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-14.185185">
           <caret line="40" column="64" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
           <folding />
         </state>
@@ -788,13 +803,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/8-Andmeside (GET ja POST)/form_style.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="85" column="4" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/zoo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13660245">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state vertical-scroll-proportion="-18.692308">
+          <caret line="88" column="61" selection-start-line="88" selection-start-column="61" selection-end-line="88" selection-end-column="61" />
           <folding>
-            <marker date="1462156179333" expanded="true" signature="463:494" placeholder="SELECT * FRO... alikhach_loomaaed" />
-            <marker date="1462156179333" expanded="true" signature="807:1042" placeholder="..." />
+            <marker date="1462163463282" expanded="true" signature="463:494" placeholder="SELECT * FRO... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="807:1042" placeholder="..." />
+            <marker date="1462163463282" expanded="true" signature="1242:1288" placeholder="SELECT * FRO... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="1429:1475" placeholder="SELECT * FRO... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="1616:1662" placeholder="SELECT * FRO... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="1852:1901" placeholder="SELECT MAX(v... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="1921:1970" placeholder="SELECT MIN(v... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="2057:2884" placeholder="..." />
+            <marker date="1462163463282" expanded="true" signature="2154:2218" placeholder="SELECT COUNT... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="2303:2367" placeholder="SELECT COUNT... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="2452:2516" placeholder="SELECT COUNT... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="2601:2665" placeholder="SELECT COUNT... alikhach_loomaaed" />
+            <marker date="1462163463282" expanded="true" signature="2750:2815" placeholder="SELECT COUNT... alikhach_loomaaed" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5384617">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <marker date="1462163634643" expanded="true" signature="307:349" placeholder="UPDATE alikh... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Võrgurakendused 1/11-MySQL/refresh2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2977233">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding>
+            <marker date="1462163721891" expanded="true" signature="307:349" placeholder="UPDATE alikh... " />
           </folding>
         </state>
       </provider>
