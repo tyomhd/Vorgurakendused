@@ -1,5 +1,6 @@
 <?php
-
+	//$connection = null;
+	//$puurid = null;
 
 function connect_db(){
 	global $connection;
@@ -24,7 +25,24 @@ function logout(){
 }
 
 function kuva_puurid(){
-	// siia on vaja funktsionaalsust
+
+	global $connection;
+	$puurid = array();
+
+	global $connection;
+	$distinct_puur = "SELECT DISTINCT puur FROM al1213_loomaaed ORDER BY puur ASC";
+	$result = mysqli_query($connection, $distinct_puur);
+	while($row = $result->fetch_assoc()) {
+
+		//$select_puur = "SELECT * FROM al1213_loomaaed WHERE  puur=".
+		$result2 = mysqli_query($connection, $distinct_puur);
+
+		while ($row2 = $result->fetch_assoc()) {
+			$puurid[$row2['puur']][]=$row;
+		}
+	}
+
+}
 
 	include_once('views/puurid.html');
 	
