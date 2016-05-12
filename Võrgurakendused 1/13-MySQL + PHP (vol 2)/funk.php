@@ -15,6 +15,7 @@ function connect_db(){
 function logi(){
 	// siia on vaja funktsionaalsust (13. nädalal)
 
+	//$_SERVER($_REQUESTM	)
 	include_once('views/login.html');
 }
 
