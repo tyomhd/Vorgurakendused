@@ -34,15 +34,13 @@ function kuva_puurid(){
 	$result = mysqli_query($connection, $distinct_puur);
 	while($row = $result->fetch_assoc()) {
 
-		//$select_puur = "SELECT * FROM al1213_loomaaed WHERE  puur=".
-		$result2 = mysqli_query($connection, $distinct_puur);
+		$select_puur = "SELECT * FROM al1213_loomaaed WHERE  puur=".$row['puur'];
+		$result2 = mysqli_query($connection, $select_puur);
 
-		while ($row2 = $result->fetch_assoc()) {
-			$puurid[$row2['puur']][]=$row;
+		while ($row2 = $result2->fetch_assoc()) {
+			$puurid[$row['puur']][]=$row2;
 		}
 	}
-
-}
 
 	include_once('views/puurid.html');
 	
