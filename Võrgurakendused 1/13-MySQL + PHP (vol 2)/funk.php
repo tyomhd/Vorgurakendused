@@ -68,8 +68,42 @@ function kuva_puurid(){
 }
 
 function lisa(){
-	// siia on vaja funktsionaalsust (13. nädalal)
+	global $connection;
+	$errors=array();
 
+
+	if(isset($_SESSION["user"])) {
+		if($_SERVER['REQUEST_METHOD'] == 'POST'){
+			try{$fileLocation = upload('liik');
+			}catch(Exception $e){}
+
+			if(empty($_POST["nimi"]) || empty($_POST["puur"]) || empty($fileLocation)){
+				if(empty($_POST["nimi"])) {
+					array_push($errors, "Empty name field.");
+				}
+				if(empty($_POST["puur"])) {
+					array_push($errors, "Empty cage field.");
+				}
+				if(empty($fileLocation)) {
+					array_push($errors, "Picture is missing");
+				}
+			}else{
+				$n = mysqli_real_escape_string ($connection, $_POST["nimi"]);
+				$p = mysqli_real_escape_string ($connection, $_POST["puur"]);
+				$l = mysqli_real_escape_string ($connection, "pildid/".$_FILES["liik"]["name"]);
+				$result = mysqli_query($connection, "INSERT INTO al1213_loomaaed (nimi, puur, liik) VALUES ('$n','$p','$l')");
+				$id = mysqli_insert_id($connection);
+				if($id>0){
+					header("Location: ?page=loomad");
+				}else{
+					array_push($errors, "Picture can't be loaded");
+				}
+
+			}
+		}
+	} else {
+		header("Location: ?page=login");
+	}
 	include_once('views/loomavorm.html');
 
 }
