@@ -47,5 +47,8 @@ http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt11/zoo.php    <b>zoo</b><b
 <b>Kodune ülesanne - 12. nädal</b><br>
 http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt12/loomaaed.php    <b>loomaaed</b><br>
 
+<b>Kodune ülesanne - 13. nädal</b><br>
+http://enos.itcollege.ee/~alikhach/Vorgurakendused1/kt13/loomaaed.php    <b>loomaaed</b><br>
+
 Artyom Likhachev<br>
 <b>Enos link:</b> http://enos.itcollege.ee/~alikhach/
