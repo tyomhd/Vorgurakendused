@@ -1,6 +1,4 @@
 <?php
-	//$connection = null;
-	//$puurid = null;
 
 function connect_db(){
 	global $connection;
@@ -13,9 +11,31 @@ function connect_db(){
 }
 
 function logi(){
-	// siia on vaja funktsionaalsust (13. nädalal)
-
-	//$_SERVER($_REQUESTM	)
+	global $connection;
+	$errors = array();
+	if(isset($_SESSION["user"])){
+		header("Location: ?page=loomad");
+	}else{
+		if($_SERVER['REQUEST_METHOD'] == 'POST'){
+			if(empty($_POST["user"]) || empty($_POST["pass"])){
+				if(empty($_POST["user"])) {
+					array_push($errors, "Empty username field.");
+				}
+				if(empty($_POST["pass"])) {
+					array_push($errors, "Empty password field.");
+				}
+			}else{
+				$sql = "SELECT id FROM alikhach_kylastajad WHERE username='".mysqli_real_escape_string($connection, $_POST["user"])."' AND passw=SHA1('". mysqli_real_escape_string($connection, $_POST["pass"])."')";
+				$result = mysqli_num_rows(mysqli_query($connection, $sql));
+				if($result){
+					$_SESSION["user"] = $_POST["user"];
+					header("Location: ?page=loomad");
+				}else{
+					array_push($errors, "Wrong username / password");
+				}
+			}
+		}
+	}
 	include_once('views/login.html');
 }
 
@@ -26,32 +46,32 @@ function logout(){
 }
 
 function kuva_puurid(){
-
 	global $connection;
 	$puurid = array();
 
-	global $connection;
-	$distinct_puur = "SELECT DISTINCT puur FROM al1213_loomaaed ORDER BY puur ASC";
-	$result = mysqli_query($connection, $distinct_puur);
-	while($row = $result->fetch_assoc()) {
+	if(isset($_SESSION["user"])) {
+		$distinct_puur = "SELECT DISTINCT puur FROM al1213_loomaaed ORDER BY puur ASC";
+		$result = mysqli_query($connection, $distinct_puur);
+		while ($row = $result->fetch_assoc()) {
 
-		$select_puur = "SELECT * FROM al1213_loomaaed WHERE  puur=".$row['puur'];
-		$result2 = mysqli_query($connection, $select_puur);
+			$select_puur = "SELECT * FROM al1213_loomaaed WHERE  puur=" . $row['puur'];
+			$result2 = mysqli_query($connection, $select_puur);
 
-		while ($row2 = $result2->fetch_assoc()) {
-			$puurid[$row['puur']][]=$row2;
+			while ($row2 = $result2->fetch_assoc()) {
+				$puurid[$row['puur']][] = $row2;
+			}
 		}
+	} else {
+		header("Location: ?page=login");
 	}
-
 	include_once('views/puurid.html');
-	
 }
 
 function lisa(){
 	// siia on vaja funktsionaalsust (13. nädalal)
-	
+
 	include_once('views/loomavorm.html');
-	
+
 }
 
 function upload($name){
@@ -62,18 +82,18 @@ function upload($name){
 	if ( in_array($_FILES[$name]["type"], $allowedTypes)
 		&& ($_FILES[$name]["size"] < 100000)
 		&& in_array($extension, $allowedExts)) {
-    // fail õiget tüüpi ja suurusega
+		// fail õiget tüüpi ja suurusega
 		if ($_FILES[$name]["error"] > 0) {
 			$_SESSION['notices'][]= "Return Code: " . $_FILES[$name]["error"];
 			return "";
 		} else {
-      // vigu ei ole
+			// vigu ei ole
 			if (file_exists("pildid/" . $_FILES[$name]["name"])) {
-        // fail olemas ära uuesti lae, tagasta failinimi
+				// fail olemas ära uuesti lae, tagasta failinimi
 				$_SESSION['notices'][]= $_FILES[$name]["name"] . " juba eksisteerib. ";
 				return "pildid/" .$_FILES[$name]["name"];
 			} else {
-        // kõik ok, aseta pilt
+				// kõik ok, aseta pilt
 				move_uploaded_file($_FILES[$name]["tmp_name"], "pildid/" . $_FILES[$name]["name"]);
 				return "pildid/" .$_FILES[$name]["name"];
 			}
